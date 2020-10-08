@@ -1,1 +1,5 @@
-LoginTest.class
+PageObjects/dashboardPage.class
+Tests/LoginTest.class
+Tests/baseTest.class
+PageObjects/basePage.class
+PageObjects/loginPage.class
