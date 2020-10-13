@@ -1,1 +1,7 @@
-/Users/alexandergonzalezfernandez/Documents/DemoCart-Framework/src/test/java/LoginTest.java
+/Users/alexandergonzalezfernandez/Automation101-3Periodo2020/DemoCart-Framework/src/test/java/Tests/baseTest.java
+/Users/alexandergonzalezfernandez/Automation101-3Periodo2020/DemoCart-Framework/src/test/java/PageObjects/dashboardPage.java
+/Users/alexandergonzalezfernandez/Automation101-3Periodo2020/DemoCart-Framework/src/test/java/Tests/LoginTest.java
+/Users/alexandergonzalezfernandez/Automation101-3Periodo2020/DemoCart-Framework/src/test/java/utilities/waits.java
+/Users/alexandergonzalezfernandez/Automation101-3Periodo2020/DemoCart-Framework/src/test/java/PageObjects/loginPage.java
+/Users/alexandergonzalezfernandez/Automation101-3Periodo2020/DemoCart-Framework/src/test/java/utilities/capabilitiesTest.java
+/Users/alexandergonzalezfernandez/Automation101-3Periodo2020/DemoCart-Framework/src/test/java/PageObjects/basePage.java

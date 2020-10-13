@@ -1,5 +1,6 @@
 Tests/LoginTest.class
 Tests/baseTest.class
+utilities/capabilitiesTest.class
 PageObjects/basePage.class
 utilities/waits.class
 PageObjects/dashboardPage.class

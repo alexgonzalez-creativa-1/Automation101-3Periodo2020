@@ -4,9 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class baseTest {
@@ -24,9 +22,10 @@ public class baseTest {
     }
 
 
-    @BeforeTest
+    @BeforeMethod(alwaysRun = true)
     public void setUpTest(){
        chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("--incognito");
       /* chromeOptions.addArguments("--kiosk");
        chromeOptions.addArguments("screenshot");
       chromeOptions.addArguments("--headless");
@@ -36,7 +35,9 @@ public class baseTest {
         this.setWebDriverConfiguration(browser, chromeOptions);
     }
 
-    @AfterTest
+
+
+    @AfterMethod(alwaysRun = true)
     public void tearDown() {
         driver.quit();
     }
