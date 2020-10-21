@@ -1,7 +1,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite  name="LoginSuite">
-
+<suite  name="Login Suite">
     <test name="login Test">
         <groups>
             <run>
@@ -13,6 +12,7 @@
         </classes>
 
     </test>
+
 
 
 
